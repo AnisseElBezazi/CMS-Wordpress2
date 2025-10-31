@@ -14,9 +14,6 @@ add_action( 'wp_enqueue_scripts', function () {
 
 
 
-
-
-
 function astra_child_load_template_parts() {
     if( is_front_page() ) {
     get_template_part('template-parts/hero');

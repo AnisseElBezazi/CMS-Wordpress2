@@ -51,3 +51,7 @@
 
 ### Après Section 2
 ![Après](images/Section2-apt.png)
+
+### Section de ma template (hors child)
+
+![template](images/Hors-child.png)
