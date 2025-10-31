@@ -49,4 +49,4 @@
 ![Avant](images/Section2-avt.png)
 
 ### Après Section 2
-![Après](images/Footer-apt.png)
+![Après](images/Section2-apt.png)
