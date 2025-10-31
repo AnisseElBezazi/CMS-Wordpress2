@@ -19,7 +19,8 @@
 - Amélioration du layout responsive.
 
 ## Hooks et templates
-- Utilisation de hooks WordPress pour injecter du contenu dans le footer et le header.
+- Utilisation de hooks WordPress pour injecter du contenu dans le footer et le header :
+   "astra_footer" et "astra_primary_content_top"
 - Surcharge de `footer.php` pour adapter le design.
 - Création de template-parts pour les sections personnalisées si nécessaire.
   
