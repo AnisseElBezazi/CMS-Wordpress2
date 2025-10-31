@@ -1,0 +1,210 @@
+/*
+Theme Name: Astra Child
+Template: astra
+Version: 1.0.0
+Text Domain: astra-child
+Description: Thème enfant basé sur Astra (footer et sections personnalisées).
+*/
+
+
+
+@font-face {
+    font-family: 'Supercell';
+    src: url('fonts/Supercell-magic-webfont.x-font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+  font-family: 'Supercell', sans-serif !important;
+  cursor: cell;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+.site-footer {
+  background: #ffffff;           
+  color: #000000;
+  padding: 60px 0 30px;
+  font-size: 0.9rem;
+}
+.site-footer a {
+  color: #000000;
+  text-decoration: none;
+}
+.site-footer .footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.footer-social .follow-us {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.app-store-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.social-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #333;
+  padding-top: 30px;
+}
+.company-info address {
+  font-style: normal;
+  line-height: 1.6;
+}
+.footer-logo img {
+  max-height: 80px;
+}
+
+
+.ast-button {
+   background-color: #e68019; 
+  color: #ffffff;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url('images/hero.jpg') ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 20px;
+    color: #fff;
+    
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.hero p {
+    font-size: 20px;
+}
+
+.cartes-section {
+    padding: 80px 20px;
+    background-color: #ffffff; 
+    text-align: center;
+}
+.cartes-section h1 {
+  font-size: 2.5rem;
+  padding: 20px;
+  border-top: #e68019 solid 3px;
+  justify-self: center;
+}
+
+.cartes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carte{
+  flex: 1 1 250px;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 1s ease;
+  text-align: left;
+}
+.carte:hover{
+  transform: translateY(-10px);
+  cursor:none;
+  border: #e68019 solid 1px;
+  transition: 1s;
+}
+
+.carte img {
+  max-width: 100%;
+  margin-bottom: 16px;
+  height: 210px;
+  aspect-ratio: 16 / 9;
+}
+
+.carte h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  width:87%;
+}
+
+.carte p {
+  font-size: 16px;
+  width:95%;
+}
+
+.bg-radial{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background:radial-gradient(#E25240F7,#7F2A1F);
+  padding: 70px 20px 90px 20px;
+  gap: 30px;
+}
+.bg-radial h3{
+width: 60%;
+text-align: center;
+color: #ffffff;
+}
+p1{
+font-size: 0.8rem;
+color: white;
+border-bottom: #e68019 solid 3px ;
+padding: 0px 24px;
+}
+.bg-radial img{
+  width: 50%;
+}
+.ast-button-secondary{
+  background: none;
+  border: #ffffff solid 2px;
+  border-radius: 6px;
+  padding: 8px 24px;
+  color: white;
+  align-items: center;
+  
+}
+
+.ast-button-secondary:hover{
+  background: #e68019;
+  border: rgba(255, 255, 255, 0) solid 2px;
+  border-radius: 6px;
+  color: white; 
+}
